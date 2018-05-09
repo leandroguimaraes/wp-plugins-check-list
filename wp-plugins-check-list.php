@@ -59,6 +59,7 @@ if(!class_exists('WPPluginsCheckList'))
 
 			//E-commerce: WooCommerce
 			WPPluginsCheckList::check_plugin($wp_errors, 'WooCommerce', 'woocommerce/woocommerce.php');
+			WPPluginsCheckList::check_plugin($wp_errors, 'WC Password Strength Settings', 'wc-password-strength-settings/wc-password-strength-settings.php');
 			WPPluginsCheckList::check_plugin($wp_errors, 'WooCommerce PagSeguro', 'woocommerce-pagseguro/woocommerce-pagseguro.php');
 			WPPluginsCheckList::check_plugin($wp_errors, 'WooCommerce Correios', 'woocommerce-correios/woocommerce-correios.php');
 			WPPluginsCheckList::check_plugin($wp_errors, 'WooCommerce Extra Checkout Fields for Brazil', 'woocommerce-extra-checkout-fields-for-brazil/woocommerce-extra-checkout-fields-for-brazil.php');
